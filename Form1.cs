@@ -29,9 +29,9 @@ namespace tabuada
             for(int num = 1; num <= 10; num ++)
             {
 
-                conta = num * tabuada;
+                
  
-                lbox_tabuada.Items.Add(tabuada + " X " + num + " = " + conta);
+                lbox_tabuada.Items.Add(tabuada + " X " + num + " = " + (num * tabuada));
 
 
 
